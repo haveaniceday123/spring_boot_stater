@@ -1,0 +1,5 @@
+my\spring\jdbc\config\JDBCConnectionManagerProperties.class
+my\spring\Main.class
+my\spring\jdbc\config\BoardAutoConfiguration.class
+META-INF\spring-configuration-metadata.json
+my\spring\jdbc\util\JDBCConnectionManager.class
