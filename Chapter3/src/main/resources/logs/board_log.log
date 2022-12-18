@@ -1,0 +1,8 @@
+2022:12:18 18:24:47.021 WARN  --- [restartedMain] my.spring.chapter3.LoggingRunner : WARN  로그메세지 
+2022:12:18 18:24:47.022 ERROR --- [restartedMain] my.spring.chapter3.LoggingRunner : ERROR  로그메세지 
+2022:12:18 18:26:19.472 WARN  --- [restartedMain] my.spring.chapter3.LoggingRunner : WARN  로그메세지 
+2022:12:18 18:26:19.473 ERROR --- [restartedMain] my.spring.chapter3.LoggingRunner : ERROR  로그메세지 
+2022:12:18 18:26:28.234 WARN  --- [restartedMain] my.spring.chapter3.LoggingRunner : WARN  로그메세지 
+2022:12:18 18:26:28.234 ERROR --- [restartedMain] my.spring.chapter3.LoggingRunner : ERROR  로그메세지 
+2022:12:18 18:26:33.430 WARN  --- [main] my.spring.chapter3.LoggingRunner : WARN  �α׸޼��� 
+2022:12:18 18:26:33.434 ERROR --- [main] my.spring.chapter3.LoggingRunner : ERROR  �α׸޼��� 
