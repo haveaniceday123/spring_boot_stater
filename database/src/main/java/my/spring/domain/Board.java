@@ -1,15 +1,16 @@
 package my.spring.domain;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 import java.util.Date;
 
 @Entity
-@Table(name = "Board")
+@TableGenerator(
+  name = "BOARD_SEQ_GENERATOR",
+  table = "ALL_SEQUENCES",
+  
+)
 public class Board {
   @Id
   @GeneratedValue

@@ -8,8 +8,8 @@
 
         <properties>
             <property name="jakarta.persistence.jdbc.driver" value="org.h2.Driver"/>
-            <property name="jakarta.persistence.jdbc.user" value="park"/>
-            <property name="jakarta.persistence.jdbc.password" value="park"/>
+            <property name="jakarta.persistence.jdbc.user" value="sa"/>
+            <property name="jakarta.persistence.jdbc.password" value=""/>
             <property name="jakarta.persistence.jdbc.url"
                       value="jdbc:h2:tcp://localhost/~/test"/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
@@ -21,4 +21,6 @@
             <property name="hibernate.id.new_generator_mappings" value="true"/>
         </properties>
     </persistence-unit>
+
+
 </persistence>

@@ -15,27 +15,17 @@ public class JPAClient {
 
     EntityManager em = emf.createEntityManager();
 
-    EntityTransaction tx = em.getTransaction();
 
     try {
-
-      tx.begin();
-      Board board = new Board();
-      board.setTitle("JPA 제목");
-      board.setWriter("관리자");
-      board.setContent("JPA글 등록 잘 되네요");
-      board.setCreateDate(new Date());
-      board.setCnt(0L);
-
-      em.persist(board);
-      tx.commit();
-
+      Board searchBoard = em.find(Board.class, 1L);
+      System.out.println("---> " + searchBoard.toString());
+      
     } catch (Exception e) {
       e.printStackTrace();
-      tx.rollback();
     } finally {
       em.close();
       emf.close();
     }
+   
   }
 }
