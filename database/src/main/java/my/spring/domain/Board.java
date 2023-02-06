@@ -6,14 +6,18 @@ import jakarta.persistence.*;
 import java.util.Date;
 
 @Entity
-@TableGenerator(
+@SequenceGenerator(
   name = "BOARD_SEQ_GENERATOR",
-  table = "ALL_SEQUENCES",
-  
+  sequenceName = "BOARD_SEQUENCE",
+  initialValue = 1,
+  allocationSize = 1
 )
 public class Board {
   @Id
-  @GeneratedValue
+  @GeneratedValue(
+    strategy = GenerationType.SEQUENCE,
+    generator = "BOARD_SEQ_GENERATOR"
+  )
   private Long seq;
   private String title;
   private String writer;

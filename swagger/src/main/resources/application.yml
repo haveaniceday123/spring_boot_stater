@@ -1,0 +1,27 @@
+management:
+  endpoints:
+    web:
+      base-path: /my/api
+      exposure:
+        include: '*'
+
+springdoc:
+  swagger-ui:
+    display-request-duration: true
+    groups-order: DESC
+    operations-sorter: method
+    disable-swagger-default-url: true
+    use-root-path: true
+  show-actuator: true
+  group-configs:
+    - group: controller
+      paths-to-match:
+        - /api/v1/put-api/**
+        - /api/v1/post-api/**
+
+    - group: get-controller
+      paths-to-match:
+        - /api/v1/get-api/**
+
+server:
+  port: 7000

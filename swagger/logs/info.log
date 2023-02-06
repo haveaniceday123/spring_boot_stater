@@ -1,0 +1,12 @@
+[2023-02-06 21:45:25.917] [INFO ] [main] com.springboot.swagger.SwaggerApplication Starting SwaggerApplication using Java 17.0.2 with PID 12968 (C:\Users\higod\Downloads\RxAndroid-3.x\board-spring-boot-stater\swagger\target\classes started by higod in C:\Users\higod\Downloads\RxAndroid-3.x\board-spring-boot-stater\swagger)
+[2023-02-06 21:45:25.928] [INFO ] [main] com.springboot.swagger.SwaggerApplication No active profile set, falling back to 1 default profile: "default"
+[2023-02-06 21:45:27.224] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7000 (http)
+[2023-02-06 21:45:27.234] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7000"]
+[2023-02-06 21:45:27.235] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-02-06 21:45:27.235] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/10.1.4]
+[2023-02-06 21:45:27.318] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-02-06 21:45:27.319] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1336 ms
+[2023-02-06 21:45:27.689] [INFO ] [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 13 endpoint(s) beneath base path '/my/api'
+[2023-02-06 21:45:28.436] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-7000"]
+[2023-02-06 21:45:28.457] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 7000 (http) with context path ''
+[2023-02-06 21:45:28.471] [INFO ] [main] com.springboot.swagger.SwaggerApplication Started SwaggerApplication in 3.106 seconds (process running for 6.67)
