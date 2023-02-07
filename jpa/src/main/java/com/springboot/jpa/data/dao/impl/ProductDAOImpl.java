@@ -21,6 +21,7 @@ public class ProductDAOImpl implements ProductDAO {
   
   @Override
   public Product insertProduct(Product product) {
+    System.out.println(product);
     return productRepository.save(product);
   }
   

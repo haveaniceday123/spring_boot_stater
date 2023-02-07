@@ -18,7 +18,7 @@ public class SwaggerConfiguration {
         return operation;
       }))
       .addOpenApiCustomizer(openApi -> openApi.info(new Info().title("Methods").version("v0.1")))
-      .packagesToScan("com.springboot.swagger")
+      .packagesToScan("com.springboot.jpa")
       .build();
     
     

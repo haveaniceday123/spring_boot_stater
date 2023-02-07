@@ -3,6 +3,7 @@ package com.springboot.jpa.data.entity;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 import java.time.LocalDateTime;
 
@@ -10,6 +11,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @Table(name = "product")
+@ToString
 public class Product {
   
   @Id
@@ -21,6 +23,9 @@ public class Product {
   
   @Column(nullable = false)
   private Integer stock;
+  
+  @Column(nullable = false)
+  private Integer price;
   
   private LocalDateTime createdAt;
   
